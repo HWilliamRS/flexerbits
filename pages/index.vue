@@ -1,41 +1,13 @@
 <script setup>
 definePageMeta({
-  layout: false
+  layout: 'default', 
 });
 </script>
 
 <template>
-  <div class="container">
-    <img src="/FlexerBitsWhite.svg" alt="FlexerBits Logo" class="logo" />
-    <h1>We're launching soon!</h1>
-    <p>Our website is under construction. Stay tuned for updates!</p>
+  <div class="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-purple-600 to-purple-900 text-white">
+    <img src="/FlexerBitsWhite.svg" alt="FlexerBits Logo" class="w-40 mb-6" />
+    <h1 class="text-4xl font-bold mb-2">We're launching soon!</h1>
+    <p class="text-lg">Our website is under construction. Stay tuned for updates!</p>
   </div>
 </template>
-
-<style>
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  text-align: center;
-  background: linear-gradient(135deg, #8e44ad, #6a1b9a);
-  color: white;
-  font-family: 'Arial', sans-serif;
-}
-
-.logo {
-  max-width: 300px;
-  margin-bottom: 20px;
-}
-
-h1 {
-  font-size: 3rem;
-  margin-bottom: 10px;
-}
-
-p {
-  font-size: 1.2rem;
-}
-</style>
