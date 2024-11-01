@@ -3,7 +3,8 @@ services:
   nuxt:
     image: node:18-alpine
     working_dir: /app
-    user: "1000:1000"  
+    user: "1000:1000" 
+    restart: "no"
     volumes:
       - .:/app  
     ports:
