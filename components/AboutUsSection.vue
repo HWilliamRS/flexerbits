@@ -1,5 +1,5 @@
 <template>
-    <section class="py-20 bg-primaryDark text-white text-center relative overflow-hidden">
+    <section id="about" class="py-20 bg-primaryDark text-white text-center relative overflow-hidden">
     <!-- Gradient Overlay with Lighter Center -->
     <div class="absolute inset-0 bg-gradient-to-br from-purple-900 via-purple-700 to-primaryDarker opacity-50 pointer-events-none z-0"></div>
 

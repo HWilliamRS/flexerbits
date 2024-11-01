@@ -1,5 +1,5 @@
 <template>
-    <section class="py-16 bg-primaryDark text-white text-center">
+    <section id="keyFeatures" class="py-16 bg-primaryDark text-white text-center">
       <div class="max-w-6xl mx-auto px-6 lg:px-8">
         <h2 class="text-4xl font-bold mb-10">Key Features</h2>
         <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
