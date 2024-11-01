@@ -2,9 +2,11 @@
 import { ref, onMounted, onUnmounted } from 'vue'
 
 const navigation = [
-  { name: "Product", href: "#" },
-  { name: "Features", href: "#" },
-  { name: "Company", href: "#" },
+  { name: "Home", href: "#" },
+  { name: "Services", href: "#services" },
+  { name: "About Us", href: "#about" },
+  { name: "Key Features", href: "#keyFeatures" },
+  { name: "Contact", href: "#contact" },
 ]
 
 // Reactive state for navbar background toggle

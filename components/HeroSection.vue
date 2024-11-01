@@ -1,5 +1,5 @@
 <template>
-    <div class="relative isolate overflow-hidden pt-14">
+    <section id="#" class="relative isolate overflow-hidden pt-14">
       <img
         src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2830&q=80&blend=111827&sat=-100&blend-mode=multiply"
         alt=""
@@ -14,6 +14,6 @@
           <a href="#" class="underline px-5 py-3">Learn More</a>
         </div>
       </div>
-    </div>
+    </section>
   </template>
   
