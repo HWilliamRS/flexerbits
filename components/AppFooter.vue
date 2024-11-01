@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-primaryDark text-gray-300 text-center shadow border-t border-gray-700">
+  <footer class="bg-primaryDark text-gray-300 text-center shadow border-t border-gray-700 z-50">
     <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between py-10 px-4 space-y-6 md:space-y-0 md:space-x-6 lg:px-8">
       <!-- Logo and Basic Info -->
       <div class="text-left">
@@ -23,10 +23,10 @@
       <!-- Social Media Links -->
       <div class="flex flex-col space-y-2">
         <h3 class="font-semibold text-gray-400">Social Media</h3>
+        <a href="https://www.linkedin.com/company/wise-quiz-ai" class="hover:text-white">LinkedIn</a>
         <a href="#" class="hover:text-white">Facebook</a>
         <a href="#" class="hover:text-white">Twitter</a>
         <a href="#" class="hover:text-white">Instagram</a>
-        <a href="#" class="hover:text-white">LinkedIn</a>
         <a href="#" class="hover:text-white">YouTube</a>
         <a href="#" class="hover:text-white">TikTok</a>
       </div>

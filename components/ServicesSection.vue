@@ -1,8 +1,7 @@
 <template>
-  <section class="py-16 bg-primaryDark relative overflow-hidden ">
+  <section id="services" class="py-16 bg-primaryDark relative overflow-hidden ">
     <!-- Decorative Background -->
     <div class="absolute inset-0 bg-gradient-to-br from-primaryDarker via-purple-800 to-black opacity-30 pointer-events-none z-0"></div>
-
     
     <div class="relative max-w-7xl mx-auto px-6 lg:px-8 z-10">
       <h2 class="text-4xl font-bold text-center text-textPrimary mb-10">Our Services</h2>
