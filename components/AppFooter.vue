@@ -8,7 +8,7 @@
         </div>
 
         <p>FlexerBits – Innovating for the future of technology.</p>
-        <p>&copy; 2024 FlexerBits S.A.</p>
+        <p>&copy; {{ new Date().getFullYear() }} FlexerBits. All rights reserved.</p>        
       </div>
 
       <!-- Legal Links -->
